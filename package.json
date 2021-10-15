@@ -1,0 +1,35 @@
+{
+  "name": "po-kes",
+  "version": "0.0.8",
+  "description": "A simple package containing jokes, and others kiddings...",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration",
+    "dev": "nodemon --watch \"src//\" --exec \"ts-node src/index.ts\" -e ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayranFelix/po-kes.git"
+  },
+  "keywords": [
+    "jokes",
+    "kiddings",
+    "kidding",
+    "joke",
+    "portuguese-support",
+    "multi-language"
+  ],
+  "author": "Sayran Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SayranFelix/po-kes/issues"
+  },
+  "homepage": "https://github.com/SayranFelix/po-kes#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.0"
+  },
+  "dependencies": {
+    "po-kes": "^0.0.8"
+  }
+}
