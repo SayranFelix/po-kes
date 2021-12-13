@@ -1,7 +1,7 @@
-/* Jokes - Part 1 of Index. */
-const lol = require('./Kiddings/jokes.js')
+// jokes - part 1 of index.
+const lol = require('./kiddings/jokes.ts')
 export = function Jokes(lang: "pt" | "en", x: number) {
-  /* Language Select or Default: Portuguese. */
+  // anguage select or default portuguese
   var language;
   if (!lang || lang == "pt") {
     language = "pt"
@@ -10,7 +10,7 @@ export = function Jokes(lang: "pt" | "en", x: number) {
     language = "en"
   }
   
-  /* Jokes Select or Random. */
+  // jokes select or random
   if(x) {
     lol.jokes[language][x];
   }
