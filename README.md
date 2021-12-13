@@ -13,3 +13,7 @@ console.log(joke)  // [RETURNS]: "Você conhece a piada do pônei? Pô nei eu...
 _Currently this package has the languages: **portuguese** and **english**. (in use: **"pt"** to portuguese, or **"en"** to english)_
 
 #### View more examples in [examples](https://github.com/inex1stent/po-kes/tree/main/examples) folder.
+
+### License:
+
+> Refer to [LICENSE](https://github.com/inex1stent/po-kes/blob/main/LICENSE) file.
